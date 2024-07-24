@@ -1,11 +1,16 @@
 {
   "name": "desafio-01",
+  "type": "module",
   "version": "1.0.0",
   "description": "API para realizar CRUD de tarefas",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --no-warnings src/server.js"
   },
   "author": "Luan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
 }
